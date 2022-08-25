@@ -1,6 +1,6 @@
 {
-    "name": "myinfo",
-    "short_name": "myinfo",
+    "name": "teacher",
+    "short_name": "teacher",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
