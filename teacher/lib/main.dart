@@ -23,7 +23,6 @@ class MyApp extends StatelessWidget {
           ),
         ),
         body: Container(
-          // color: Colors.amber,
           padding: EdgeInsets.all(20),
           child: Center(
             child: Column(
@@ -36,7 +35,8 @@ class MyApp extends StatelessWidget {
                     // BoxDecoration을 통해 이미지 생성
                     color: Colors.black,
                     image: DecorationImage(
-                        image: AssetImage('images/messi.jpeg'),
+                        image: NetworkImage(
+                            'https://images.chosun.com/resizer/vSEQ-r5lmTYy6qc_BfHXZdJf4Gs=/616x0/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/75V44LBTMBCVPA5BGP7XH2N7IE.jpg'),
                         fit: BoxFit.cover), // 영역에 맞게 사진을 채움
                   ),
                 ),
